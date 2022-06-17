@@ -37,6 +37,7 @@ RUN yum update -y && \
 	yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo && \
 	yum update -y && \
 	yum -y install terraform git && \
+	yum clean all && \
 	rm -rf /var/cache/yum && \
 	usermod -aG docker alma
 

@@ -63,7 +63,7 @@ resource "docker_image" "dind_almalinux_image" {
 resource "docker_container" "dind_almalinux_container" {
 	depends_on = [ null_resource.create_volumes_folder ]
 	image = data.docker_registry_image.dind_image_almalinux.name
-	name  = "dind_almalinux"
+	name  = "almalinux_dind"
 	hostname = "almalinux.local"
 	restart = "no"
 	privileged = true

@@ -35,4 +35,4 @@ destroy: ## Terraform destroy
 	@terraform destroy --auto-approve
 
 connect: ## Connect to container
-	@docker exec -it --user=alma dind_almalinux bash
+	@docker exec -it --user=alma almalinux_dind bash
