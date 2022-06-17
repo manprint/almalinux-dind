@@ -8,3 +8,12 @@ curl -sSL https://raw.githubusercontent.com/manprint/almalinux-dind/main/almalin
 ```
 chmod +x almalinux-dind.sh
 ```
+
+## Script di deploy terraform
+
+```
+curl -sSL https://raw.githubusercontent.com/manprint/almalinux-dind/main/terraform/main.tf -o main.tf
+```
+```
+curl -sSl https://raw.githubusercontent.com/manprint/almalinux-dind/main/terraform/Makefile -o Makefile
+```
