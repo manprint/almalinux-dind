@@ -17,3 +17,12 @@ curl -sSL https://raw.githubusercontent.com/manprint/almalinux-dind/main/terrafo
 ```
 curl -sSl https://raw.githubusercontent.com/manprint/almalinux-dind/main/terraform/Makefile -o Makefile
 ```
+
+## Script di commit
+
+```
+curl -sSl https://raw.githubusercontent.com/manprint/almalinux-dind/main/commit.sh -o commit.sh
+```
+```
+chmod +x commit.sh
+```
